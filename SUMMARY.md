@@ -6,8 +6,8 @@
    * Services
 * Build
    * Source Code Management (Git)
-   * Automated Testing
    * Virtualisation (Docker)
+   * Automated Testing
    * Continuous Integration (CI)
 * [Infrastructure](infrastructure/index.md)
    * Database Management
