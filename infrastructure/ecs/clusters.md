@@ -1,6 +1,6 @@
 # ECS Clusters
 
-A **cluster** is a collection of container instances abstracted into a pool of resources (mostly CPU and RAM). There's not a lot to configure beyond a name, so let's talk about the **ECS agent**.
+A **cluster** is a collection of container instances abstracted into a pool of resources (mostly CPU and RAM). There's not a lot to configure beyond a name, so let's talk about the **ECS agent**.
 
 The ECS agent is a process that runs on each container instance of a cluster. It does three main jobs:
 
