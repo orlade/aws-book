@@ -29,15 +29,15 @@ Quite simply, a container definition contains all of the arguments that you woul
 * **Name**: Arbitrary, used for linking containers.
 * **Image**: The Docker image to create the container from.
 *  **Memory**: The maximum memory available to the container. If it needs more, it is killed.
-   
+
    As a rule of thumb, consider giving each container slightly less than the amount of RAM per CPU core on the host. If all containers add up to the total of the host, there won't be enough left for the host itself.
 *  **Port mappings**: Binding of ports inside the container to ports on the host.
-   
+
    The most common use case is to bind the host's external port 80 (HTTP) to the application's port (e.g. 3000, 5000, 8080) in the container.
 *  **CPU units**: The minimum CPU capacity that must be available for the container to be run (1 CPU = 1,024 CPU units).
 
    Note that containers are free to use more than this minimum if there is spare capacity. It should be barely enough for the application in the container to do its job.
-* **Environment variables**: Variables that will be set in the container environment. Your applications can read these at runtime. A key component of a [12 Factor app][12fa-config]. 
+* **Environment variables**: Variables that will be set in the container environment. Your applications can read these at runtime. A key component of a [12 Factor app][12fa-config].
 * **Links**: A mechanism for containers to access each other without using explicit ports. Not necessary for simple applications, but a good feature to know about.
 *  **Volume mount points**: A mechanism for persisting data when a container is terminated and restarted.
 
