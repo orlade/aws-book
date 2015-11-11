@@ -8,4 +8,4 @@ There is one exception, however: [updating](../../operations/updating.md). When 
 
 ## Services
 
-[//]: (TODO: An ELB instance may be used to balance load across multiple tasks.)
+[//]: (TODO: An ELB instance may be used to balance load across multiple tasks.)

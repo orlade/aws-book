@@ -1,6 +1,6 @@
 # Elastic Compute Cloud (AWS EC2)
 
-EC2 provisions and configures virtual machines (VMs) called [**instances**](instances.md). Instances are essentially just computers, and they can do anything a computer can do. In your technical infrastructure, they are the workhorses that sit and run your code 24 hours a day.
+EC2 provisions and configures virtual machines (VMs) called [**instances**](instances.md). Instances are essentially just computers, and they can do anything a computer can do. In your technical infrastructure, they are the workhorses that sit and run your code 24 hours a day.
 
 EC2 is more than just instances, however. It also includes a handful of services that manage those instances. Since instances are so general-purpose, there are many configuration options available. These include operating system, performance/price tradeoffs, and [Security Groups](security-groups.md).
 
