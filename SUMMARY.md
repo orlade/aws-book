@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * Continuous Integration (CI)
-* Source Code
 * Build
+   * Source Code
    * Docker
    * Continuous Integration (CI)
 
