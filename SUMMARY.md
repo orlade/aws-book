@@ -4,4 +4,5 @@
 * Source Code
 * Docker
 * Continuous Integration (CI)
+* Build
 
