@@ -14,4 +14,4 @@ But for now, let's make a start!
 
 Here's an **architectural design diagram** of the system that we're going to build. As you proceed through the following sections, you'll see it come together piece by piece.
 
-![System architecture diagram](system-architecture-diagram.png)
+![System architecture diagram](../images/system-architecture-diagram.png)
