@@ -5,4 +5,5 @@
 * Docker
 * Continuous Integration (CI)
 * Build
+   * Continuous Integration (CI)
 
