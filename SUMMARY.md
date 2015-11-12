@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* Source Code
 * Continuous Integration (CI)
+* Source Code
 * Build
    * Docker
    * Continuous Integration (CI)
