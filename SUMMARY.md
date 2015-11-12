@@ -9,7 +9,7 @@
    * Automated Testing
    * Virtualisation (Docker)
    * Continuous Integration (CI)
-* [Infrastructure](infrastructure.md)
+* [Infrastructure](infrastructure/index.md)
    * Database Management
        * Database-as-a-Service (DBaaS)
        * Relational Database Service (AWS RDS)
