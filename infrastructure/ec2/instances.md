@@ -22,7 +22,13 @@ Speaking of cost savings, there's three different payment plans for EC2 instance
 
 ## What should I do?
 
-Nothing yet! Launching an instance is easy enough, but we want EC2 to launch them automatically. We'll set this up by the end of the chapter, and then there'll be an instance to play with. It'll be worth the wait. 
+Nothing yet!
+
+Launching an instance is easy enough, but you have to wade through pages of configuration. We'll discuss the options in the next section. Once the configuration is set, we want EC2 to launch our instances automatically.
+
+By the end of the chapter, we'll have a miniature fleet of two instances that can be expanded at will. It'll be worth the wait. But if you really want, you can launch a `t2.micro` instance manually to get a feel for it. Here's where it fits into the architecture:
+
+![System architecture diagram with a single instance](../images/arch-single-instances.png)
 
 [types]: https://aws.amazon.com/ec2/instance-types/
 [free]: https://aws.amazon.com/free/
