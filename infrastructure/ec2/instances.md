@@ -24,7 +24,7 @@ Speaking of cost savings, there's three different payment plans for EC2 instance
 
 Nothing yet!
 
-Launching an instance is easy enough, but you have to wade through pages of configuration. We'll discuss the options in the next section. Once a launch configuration is defined, we want EC2 to launch our instances automatically.
+Launching an instance is easy enough, but you have to wade through pages of configuration. We'll discuss the options in the next section. Once a [launch configuration](launch-configurations.md) is defined, we want EC2 to launch our instances automatically.
 
 By the end of the chapter, we'll have a miniature fleet of two instances that can be expanded at will. It'll be worth the wait. But if you really want, you can launch a `t2.micro` instance manually to get a feel for it. Here's where it fits into the architecture:
 
