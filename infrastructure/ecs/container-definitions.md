@@ -1,2 +1,0 @@
-# ECS Container Definitions
-
