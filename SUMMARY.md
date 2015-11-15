@@ -4,11 +4,11 @@
 * Roadmap
    * Application (Meteor)
    * Services
-* Build
-   * Source Code Management (Git)
-   * Virtualisation (Docker)
-   * Automated Testing
-   * Continuous Integration (CI)
+* [Build](build/index.md)
+   * [Source Code Management (Git)](build/scm.md)
+   * [Virtualisation (Docker)](build/virtualisation.md)
+   * [Automated Testing](build/testing.md)
+   * [Continuous Integration (CI)](build/ci.md)
 * [Infrastructure](infrastructure/index.md)
    * Database Management
        * Database-as-a-Service (DBaaS)
@@ -49,4 +49,3 @@
    * Scalability
    * Cost
 * Modern Deployment Cheat Sheet
-
