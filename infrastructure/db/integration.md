@@ -8,6 +8,11 @@ The queries your application makes (read and write) use an SDK to abstract wheth
 
 One consideration to make is that network latency is orders of magnitude larger than local disk I/O, let alone memory. Thus the performance of your queries will be reduced when using a remote database relative to a local one. If this becomes a problem, try to reduce the number or size of the queries you make. If that's not enough, look into [replica sets][replica].
 
+## Backups
+
+As soon as you start storing user data, you must have a reliable process to back it up. And it should go without saying, but you must *also* have a reliable process to restore a backup if disaster strikes. An unrecoverable backup is worthless.
+
+Most DBaaS providers will include regular managed backups in their paid plans. For free plans, local databases, or just for fun, you can perform backup and restore operations with the command line.
 
 ## What should I do?
 
@@ -15,6 +20,9 @@ Continuing with the assumption that you're using MongoDB and have set up an acco
 
 1. Set the `MONGO_URL` environment variable to the Mongo URI from the [previous section](options.md), including the database user's username and password.
 1. Run the application, read and write some data, and check that it is persisted in the DBaaS instance.
+1. Perform a backup of the database to ensure that it works.
+
+**TODO**: Specific command(s) for backup. 
 
 For now, you can just set the `MONGO_URL` variable manually. [ECS](../ecs/index.md) will let us declare all necessary environment variables more formally.
 
