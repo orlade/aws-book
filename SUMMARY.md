@@ -39,8 +39,8 @@
    * Scaling
    * Debugging
 * Quality Attributes
-   * Security
+   * [Security](quality/security.md)
    * [Scalability](quality/scalability.md)
-   * Cost
+   * [Cost](quality/cost.md)
 * Conclusion
 * Modern Deployment Cheat Sheet
