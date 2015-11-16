@@ -28,7 +28,7 @@ Launching an instance is easy enough, but you have to wade through pages of conf
 
 By the end of the chapter, we'll have a miniature fleet of two instances that can be expanded at will. It'll be worth the wait. But if you really want, you can launch a `t2.micro` instance manually to get a feel for it. Here's where it fits into the architecture:
 
-![System architecture diagram with a single instance](../images/arch-single-instances.png)
+![System architecture diagram with a single instance](../../images/arch-single-instance.png)
 
 [types]: https://aws.amazon.com/ec2/instance-types/
 [free]: https://aws.amazon.com/free/
