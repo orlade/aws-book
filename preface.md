@@ -1,5 +1,10 @@
 # Preface
 
+## Status
+
+**This book is a work in progress**
+
+
 ## Acknowledgements
 
 Thank you to the [CRCSI][crcsi] for funding the work that helped this book coming into being.
