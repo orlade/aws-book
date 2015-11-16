@@ -12,10 +12,9 @@
    * [Automated Testing](build/testing.md)
    * [Continuous Integration](build/ci.md)
 * [Infrastructure](infrastructure/index.md)
-   * Database Management
-       * Database-as-a-Service (DBaaS)
-       * Relational Database Service (AWS RDS)
-       * MongoDB
+   * [Database Management](infrastructure/db/index.md)
+       * [Database Options](infrastructure/db/options.md)
+       * [Database Integration](infrastructure/db/integration.md)
    * Identity and Access Management (AWS IAM)
        * Permissions
        * Users, Groups and Roles
