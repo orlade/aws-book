@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [Objectives](objectives.md)
 * Roadmap
    * Application (Meteor)
    * Services

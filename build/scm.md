@@ -15,7 +15,7 @@ Git is far and away the leading VCS in use today. Every software project should 
 
 [GitHub][github] and [Bitbucket][bitbucket] are the leading providers of hosted `origin` repositories. Both provide free hosting for public repositories, and have commercial plans for private repositories. GitHub charges per repository, and Bitbucket charges per collaborating user. GitHub has a more vibrant community for open-source projects, but Bitbucket private repositories are free for up to five users.
 
-Private Bitbucket repositories are used as the ​ origin ​ (server) repositories. New changes should be committed to a local Git repository first, then pushed to the ​ origin repository.
+Most importantly, both GitHub and Bitbucket are well-integrated with other Web services. This simplifies the process of automating the build system. We'll explore this automation in more detail in [continuous integration](ci.md).
 
 
 ## What should I do?
