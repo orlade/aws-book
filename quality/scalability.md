@@ -25,3 +25,4 @@ The following considerations were made in the design of the system to allow it t
     * The EC2 instance is provisioned by an [Auto Scaling Group](../infrastructure/ec2/auto-scaling-groups.md) (ASG). Additional copies of that instance can be created by simply editing the ASG.
     * The application is provisioned into an [ECS cluster](../infrastructure/ecs/clusters.md), which abstracts the EC2 instances. Additional (or larger) EC2 instances provisioned via the ASG will be automatically added to the cluster.
     The [ECS service](../infrastructure/ecs/tasks-services.md) can be edited the same was as the ASG to deploy more instances of the application.
+p
