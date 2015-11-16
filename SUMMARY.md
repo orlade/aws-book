@@ -1,15 +1,16 @@
 # Summary
 
+* [Preface](preface.md)
 * [Introduction](README.md)
 * [Objectives](objectives.md)
 * Roadmap
    * Application (Meteor)
    * Services
 * [Build](build/index.md)
-   * [Source Code Management (Git)](build/scm.md)
+   * [Source Code Management](build/scm.md)
    * [Virtualisation (Docker)](build/virtualisation.md)
    * [Automated Testing](build/testing.md)
-   * [Continuous Integration (CI)](build/ci.md)
+   * [Continuous Integration](build/ci.md)
 * [Infrastructure](infrastructure/index.md)
    * Database Management
        * Database-as-a-Service (DBaaS)
@@ -31,13 +32,10 @@
        * [Clusters](infrastructure/ecs/clusters.md)
        * [Task and Container Definitions](infrastructure/ecs/definitions.md)
        * [Tasks and Services](infrastructure/ecs/tasks-services.md)
-* Presentation
-   * Static Website Hosting
-       * Static Site Generation (Jekyll)
-       * Hosting and Deployment (AWS S3)
    * Domain Name Service (AWS Route 53)
        * Hosted Zones and Record Sets
        * Subdomains
+* [Static Website Hosting](presentation/website.md)
 * Operations
    * Updates and Rollbacks
    * Backups
@@ -47,4 +45,5 @@
    * Security
    * Scalability
    * Cost
+* Conclusion
 * Modern Deployment Cheat Sheet
