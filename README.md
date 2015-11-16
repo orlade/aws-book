@@ -14,24 +14,39 @@ Maybe you're new to the cloud or AWS. Maybe you've tried before and bounced off 
 
 > **Info** Info
 
-Separator.
+.
 
 > **Note** Note
+
+.
 
 
 > **Tag** Tag
 
+.
 
 > **Comment** Comment
 
+.
+
 > **Hint** Hint
+
+.
 
 > **Success** Success
 
+.
+
 > **Warning** Warning
+
+.
 
 > **Caution** Caution
 
+.
+
 > **Danger** Danger
+
+.
 
 > **Quote** Quote
