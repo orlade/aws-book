@@ -26,12 +26,14 @@ In previous steps, we've configured an [IAM role with S3 read access](../iam/rol
 1. Search the AWS Marketplace for the ["Amazon ECS-Optimized" AMI][ami] and select it.
 1. Select the instance type you want (`t2.micro` unless you need something bigger).
 1. Set the IAM role to the `ecsInstanceRole` [we created earlier](../iam/roles.md).
-1.  Set the "User data" to:
+1. Set the "User data" to:
 
-   ```bash
-   #!/bin/bash
-   yum install -y aws-cli
-   aws s3 cp s3://crcsi-config/rezone/ecs/ecs.config /etc/ecs/ecs.config
+   ```sh
+#!/bin/bash
+yum install -y aws-cli
+aws s3 cp s3://crcsi-config/rezone/ecs/ecs.config /etc/ecs/ecs.config
+echo "
+ECS_CLUSTER=<app name>" >> /etc/ecs/ecs.config
    ```
 1. Use the default storage.
 1. Select the [security group we created previously](security-groups.md).

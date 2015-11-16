@@ -19,9 +19,7 @@
        * Permissions
        * Users, Groups and Roles
        * [Certificates](infrastructure/iam/certificates.md)
-   * Simple Storage Service (AWS S3)
-       * Buckets
-       * Permissions
+   * [Simple Storage Service (AWS S3)](infrastructure/s3/index.md)
    * [Elastic Compute Cloud (AWS EC2)](infrastructure/ec2/index.md)
        * [EC2 Instances](infrastructure/ec2/instances.md)
        * [Security Groups](infrastructure/ec2/security-groups.md)
