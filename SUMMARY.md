@@ -29,6 +29,7 @@
        * [Clusters](infrastructure/ecs/clusters.md)
        * [Task and Container Definitions](infrastructure/ecs/definitions.md)
        * [Tasks and Services](infrastructure/ecs/tasks-services.md)
+   * [AWS Lambda and API Gateway](infrastructure/lambda/index.md)
    * Domain Name Service (AWS Route 53)
        * Hosted Zones and Record Sets
        * Subdomains
